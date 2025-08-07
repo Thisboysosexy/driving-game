@@ -1,56 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Anniversary!</title>
+  <link rel="icon" href="downloads.png" type="image/png">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>
-        MY NAME IS JOHN
-    </h1>
-    <ul>
-        <li>orange</li>
-        <li>mango</li>
-        <li>pear</li>
-    </ul>
-    <ol>
-        <li>orange</li>
-        <li>mango</li>
-        <li>pear</li>
-    </ol>
-    <img src="Untitled2.png" alt="image 2">
-    <form>
-        <input type="text" placeholder="firstname">
-        <input type="text" placeholder="lastname">
-        <input type="text" placeholder="email address">
-        <input type="text" placeholder="password">
-        <button>LOGIN
-    </button>
-    </form>
-    <img src="Untitled3.png" alt="image 3">
-        <form>
-        <input type="text" placeholder="firstname">
-        <input type="text" placeholder="lastname">
-        <input type="text" placeholder="email address">
-        <input type="text" placeholder="password">
-    </form>
-    <img src="Untitled4.png" alt="image 4">
-        <form>
-        <input type="text" placeholder="firstname">
-        <input type="text" placeholder="lastname">
-        <input type="text" placeholder="email address">
-        <input type="text" placeholder="password">
-    </form>
-    <img src="Untitled5.png" alt="image 5">
-        <form>
-        <input type="text" placeholder="firstname">
-        <input type="text" placeholder="lastname">
-        <input type="text" placeholder="email address">
-        <input type="text" placeholder="password">
-    </form>
-  
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div id="message" class="hidden">
+      <h1>Happy Anniversary Demilade, I love you ❤️</h1>
+      <button onclick="restartGame()">Play Again</button>
+    </div>
+  </div>
+  <script src="game.js"></script>
 </body>
 </html>
 
