@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Driving Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <div id="gameArea">
+    <div id="score">Score: 0</div>
+    <div id="playerCar"></div>
+    <!-- Touch Controls -->
+    <div id="touchControls">
+      <button id="leftBtn">⟵</button>
+      <button id="rightBtn">⟶</button>
+    </div>
+  </div>
+
+  <div id="gameOver">
+    <h1>Game Over!</h1>
+    <button onclick="restartGame()">Play Again</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
