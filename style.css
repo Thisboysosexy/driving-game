@@ -1,9 +1,48 @@
-h1 {color: darkgoldenrod;
-font-size: 90px; }
-button {background-color: blueviolet;
-    width: 300px;
-height: 40px;
-color: aliceblue;
-font-size: 15px;
-border: none;
-border-radius: 10px;}
+margin: 0;
+  background: url(images/background.png);
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#gameContainer {
+  position: relative;
+}
+
+canvas {
+  background: #cceeff;
+  border: 3px solid #444;
+  display: block;
+}
+
+#message {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#message h1 {
+  font-size: 32px;
+  color: #ff3366;
+}
+
+#message button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  background-color: #ff3366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
